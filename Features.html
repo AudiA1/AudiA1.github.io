@@ -1,0 +1,233 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title> Audi Advertising Project</title>
+
+	<style>
+
+			
+td {
+    text-align: center;
+}
+
+
+	body {
+
+	font-family: "timesnewroman";
+	font-size: 25px;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-image:url("background-1.jpeg"); 
+	background-repeat:no-repeat ; 
+	background-position: center; 
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	color: white;
+	}
+	
+		.places{
+			background-color: aqua;
+			width: 618.75px;
+			height: 165px;
+			margin: -125px 195.5px;
+			
+			 
+			
+		}
+
+		.big{
+			
+			width: 495px;
+			height: 250px;
+			margin: auto;
+			
+			}
+		
+		
+
+
+			#city{
+			background-color: aqua;
+			font-size: 30px;
+			color: black;
+			width: 300px;
+			height: 40px;
+			text-align: center;
+			margin: 153px 360px;
+			
+			}
+
+	table{
+		position: absolute;
+		top: 855px;  
+		left: 0px;  
+
+		}
+
+
+	a:link,a:visited{
+				
+			background-color: white;
+			color: red;
+			text-decoration: underline;
+
+
+			}
+
+	a:hover,a:active{
+
+			background-color: grey;
+			color: blue; 
+			text-decoration: underline;	 
+					
+		}
+
+	
+		
+	}
+
+
+
+	</style>
+
+	
+	<script language="javascript">
+
+
+	
+	var image0= new Image();
+	image0.src='images1.jpg';
+
+	var image1= new Image();
+	image1.src='home.jpg';
+	
+
+	var image2= new Image();
+	image2.src='ticket background.jpg';
+	
+
+	var image3= new Image();
+	image3.src='wonder background.jpg';
+	
+
+	/*
+
+	Evan Michigan
+	
+
+	11-1-18
+
+	
+	*/
+
+	var image4 = new Image();
+	image4.src = 'tech-1.jpeg';
+
+	var image5 = new Image();
+	image5.src = 'tech-2.jpeg';
+
+	var image6 = new Image();
+	image6.src = 'tech-3.jpeg';
+
+	var image7 = new Image();
+	image7.src = 'tech-4.jpeg';
+	
+	function techAudione()
+	{
+		document.getElementById('bigImage').src = image4.src; 
+		document.getElementById("city").innerHTML='Interior design';	
+	}
+		function techAuditwo()
+	{
+		document.getElementById('bigImage').src = image5.src; 
+		document.getElementById("city").innerHTML='Touch screen';	
+	}
+
+	function techAudithree()
+	{
+		document.getElementById('bigImage').src = image6.src; 
+		document.getElementById("city").innerHTML='Navigation screen';	
+	}
+
+	function techAudifour()
+	{
+		document.getElementById('bigImage').src = image7.src; 
+		document.getElementById("city").innerHTML='Stereo system';	
+	}
+
+	
+
+
+
+
+	</script>
+
+
+</head>
+
+
+
+<body id="theBody">
+
+
+<div class= "big">
+
+		<h1><center> Features Page </center></h1>
+
+
+	<img src="tech-1.jpeg" alt="technicalone" width="500" height="300" id="bigImage"/>
+	</div>
+
+	
+	
+	<div id= "city">
+	Interior design 
+		
+	</div>
+
+
+	<br>
+
+	<div class= "places">
+	
+		<img src="tech-1.jpeg" alt="technicalone   " width="150" height="150" onclick="techAudione();"/>
+		
+		<img src="tech-2.jpeg" alt="technicaltwo      " width="150" height="150" onclick="techAuditwo();"/>
+		
+		<img src="tech-3.jpeg" alt="technicalthree     " width="150" height="150" onclick="techAudithree();"/>
+
+		<img src="tech-4.jpeg" alt="technicalfour      " width="150" height="150" onclick="techAudifour();"/>
+
+		
+
+	</div>
+
+
+<table style="width:100%">
+ <tr>
+
+<td><a href="Information.html"><img src="image-1.jpeg" alt="Image1"  style="height:200px; width:400px; border:0" ><center>Information Page</center></a></td>
+
+
+<td><a href="Location.html"><img src="New-York-City.jpeg" alt="Image3"  style="height:200px; width:400px; border:0" ><center>Location Page</center></a></td>
+
+
+<td><a href="Avertising Project 1.html"><img src="home-page-pic.jpeg" alt="Image4"  style="height:200px; width:400px; border:0" ><center>Home Page</center></a></td>
+
+
+  </tr>
+</table>
+
+
+
+
+
+
+</body>
+
+</html>
+	
